@@ -8,10 +8,7 @@ import com.lm.flowershop.service.IProductService;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
-/**
- * @author ry
- * @create 2024-12-26 15:23
- */
+
 @Service
 public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product> implements IProductService {
 

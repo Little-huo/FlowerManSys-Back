@@ -9,10 +9,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * @author ry
- * @create 2024-12-10 17:17
- */
+
 @TableName("fl_out")
 @Data
 public class Outstorage {

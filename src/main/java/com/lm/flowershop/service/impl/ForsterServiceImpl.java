@@ -9,10 +9,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
-/**
- * @author ry
- * @create 2024-12-17 17:39
- */
+
 @Service
 public class ForsterServiceImpl extends ServiceImpl<FosterMapper, Foster> implements IFosterService {
 

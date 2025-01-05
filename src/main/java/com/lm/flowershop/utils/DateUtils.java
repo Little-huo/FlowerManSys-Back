@@ -7,10 +7,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-/**
- * @author ry
- * @create 2024-12-12 20:57
- */
+
 public class DateUtils {
     public static String dateFormat(Date date, String pattern){
         SimpleDateFormat sdf = new SimpleDateFormat(pattern);

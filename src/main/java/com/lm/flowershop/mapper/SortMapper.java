@@ -6,10 +6,7 @@ import com.lm.flowershop.entity.Sale;
 import com.lm.flowershop.entity.Sort;
 import org.apache.ibatis.annotations.Param;
 
-/**
- * @author ry
- * @create 2024-12-26 15:27
- */
+
 public interface SortMapper extends BaseMapper<Sort> {
 
      Page<Sort> findPage(Page<Sort> page, @Param("sortname") String sortname);

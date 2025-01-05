@@ -1,9 +1,6 @@
 package com.lm.flowershop.config;
 
-/**
- * @author ry
- * @create 2024-12-18 16:18
- */
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;

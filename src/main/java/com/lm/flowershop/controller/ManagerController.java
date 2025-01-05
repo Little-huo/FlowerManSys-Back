@@ -27,10 +27,7 @@ import java.io.InputStream;
 import java.net.URLEncoder;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-17 16:29
- */
+
 @RestController
 @RequestMapping("/manager")
 public class ManagerController {
@@ -142,21 +139,4 @@ public class ManagerController {
         }
         return Result.success(managerMapper.selectPage(new Page<>(pageNum,pageSize),queryWrapper));
     }
-    //分页查询
-    //接口路径：/user/page?pageNum=1&pageSize=10
-    //@RequestParam接收
-//    @GetMapping("/page")
-//    public  Map<String,Object> findPage(@RequestParam Integer pageNum,
-//                                        @RequestParam Integer pageSize,
-//                                        @RequestParam String adName) {
-//        pageNum = (pageNum - 1) * pageSize;
-//        List<Manager> data=managerMapper.selectpage(pageNum,pageSize,adName);
-//        Integer total=managerMapper.selectTotal(adName);
-//        Map<String,Object> res=new HashMap<>();
-//        res.put("data",data);
-//        res.put("total",total);
-//        return res;
-//    }
-
-
 }

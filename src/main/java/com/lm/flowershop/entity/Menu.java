@@ -12,10 +12,7 @@ import lombok.Setter;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 16:07
- */
+
 @Getter
 @Setter
 @TableName("sys_menu")

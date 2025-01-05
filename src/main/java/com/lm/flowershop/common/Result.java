@@ -4,14 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author ry
- * @create 2024-12-22 10:40
- */
-/*
 
-接口统一返回包装类
-*/
+
 
 @Data
 @NoArgsConstructor

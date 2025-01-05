@@ -18,10 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 15:29
- */
+
 @RestController
 @RequestMapping("/unit")
 public class UnitController {

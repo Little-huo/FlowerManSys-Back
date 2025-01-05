@@ -237,9 +237,6 @@ CREATE TABLE `fl_sale`  (
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 18 CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = Dynamic;
 
--- ----------------------------
--- Records of fl_sale
--- ----------------------------
 INSERT INTO `fl_sale` VALUES (18, 'CK20457817', '销售员', '2024-12-22', '37', '安徽花卉有限公司', '10', '棵', 10, 100, 100, NULL, '已通过', NULL, NULL, NULL);
 INSERT INTO `fl_sale` VALUES (19, 'CK20458878', '销售员', '2024-12-22', '37', '安徽花卉有限公司', '30', '棵', 10, 300, 300, NULL, '已通过', NULL, NULL, NULL);
 INSERT INTO `fl_sale` VALUES (20, 'CK20451705', '销售员', '2024-12-22', '39', '安徽花卉有限公司', '5', '棵', 5, 25, 25, NULL, '已通过', NULL, NULL, NULL);

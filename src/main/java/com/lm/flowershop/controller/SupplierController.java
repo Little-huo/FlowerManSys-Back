@@ -25,10 +25,7 @@ import java.io.InputStream;
 import java.net.URLEncoder;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-17 16:29
- */
+
 @RestController
 @RequestMapping("/supplier")
 public class SupplierController {
@@ -107,9 +104,7 @@ public class SupplierController {
 //        return res;
 //    }
 
-    /**
-     * 导出接口
-     */
+    
     @GetMapping("/export")
     public void export(HttpServletResponse response)throws Exception{
         //从数据库查询出所有的数据
@@ -137,11 +132,7 @@ public class SupplierController {
         out.close();
         writer.close();
     }
-    /**
-     * excel 导入
-     * @param file
-     * @throws Exception
-     */
+    
     @PostMapping("/import")
     public Result imp(MultipartFile file) throws Exception{
         InputStream inputStream = file.getInputStream();

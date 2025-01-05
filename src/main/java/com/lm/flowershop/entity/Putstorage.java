@@ -10,10 +10,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * @author ry
- * @create 2024-12-10 9:44
- */
+
 @Data
 @TableName(value = "fl_put")
 @ApiModel(value = "入库",description = "")

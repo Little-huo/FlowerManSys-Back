@@ -27,10 +27,7 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-21 18:22
- */
+
 @Service
 public class ManagerServiceImpl extends ServiceImpl<ManagerMapper, Manager> implements IManagerService {
     private static final Log LOG = Log.get();
@@ -97,11 +94,7 @@ public class ManagerServiceImpl extends ServiceImpl<ManagerMapper, Manager> impl
 
         return managerMapper.findPage2(page);
     }
-    /**
-     * 获取当前角色的菜单列表
-     * @param roleFlag
-     * @return
-     */
+    
     private List<Menu> getRoleMenus(String roleFlag){
         Integer roleId= roleMapper.selectByFlag(roleFlag);
 

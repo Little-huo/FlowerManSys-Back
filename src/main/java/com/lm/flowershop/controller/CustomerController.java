@@ -27,10 +27,7 @@ import java.net.URLEncoder;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-30 15:38
- */
+
 @RestController
 @RequestMapping("/customer")
 public class CustomerController {
@@ -100,9 +97,7 @@ public class CustomerController {
         queryWrapper.orderByDesc("id");
         return Result.success(customerService.page(page,queryWrapper));
     }
-    /**
-     * 导出接口
-     */
+    
     @GetMapping("/export")
     public void export(HttpServletResponse response)throws Exception{
         //从数据库查询出所有的数据
@@ -133,11 +128,7 @@ public class CustomerController {
         out.close();
         writer.close();
     }
-    /**
-     * excel 导入
-     * @param file
-     * @throws Exception
-     */
+    
     @PostMapping("/import")
     public Result imp(MultipartFile file) throws Exception{
         InputStream inputStream = file.getInputStream();

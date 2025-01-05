@@ -10,10 +10,7 @@ import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-17 16:12
- */
+
 
 public interface ManagerMapper extends BaseMapper<Manager> {
     Page<Manager> findPage(Page<Manager> page);

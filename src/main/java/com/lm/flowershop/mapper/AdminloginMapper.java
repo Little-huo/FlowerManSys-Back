@@ -7,10 +7,7 @@ import com.lm.flowershop.entity.Adminlogin;
 import com.lm.flowershop.entity.Manager;
 import org.apache.ibatis.annotations.Update;
 
-/**
- * @author ry
- * @create 2024-12-17 16:12
- */
+
 
 public interface AdminloginMapper extends BaseMapper<Adminlogin> {
 }

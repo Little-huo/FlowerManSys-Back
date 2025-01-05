@@ -8,10 +8,7 @@ import com.lm.flowershop.entity.Unit;
 
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 15:24
- */
+
 public interface IProductService extends IService<Product> {
 
     Page<Product> findPage(Page<Product> page, String name,String psort);

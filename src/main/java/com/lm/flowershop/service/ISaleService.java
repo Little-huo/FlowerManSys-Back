@@ -11,10 +11,7 @@ import com.lm.flowershop.entity.Sale;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 15:24
- */
+
 public interface ISaleService extends IService<Sale> {
 
     Page<Sale> findPage(Page<Sale> page, String saleId);

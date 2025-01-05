@@ -6,10 +6,7 @@ import com.lm.flowershop.entity.Buy;
 import com.lm.flowershop.entity.Foster;
 import com.lm.flowershop.entity.Sale;
 
-/**
- * @author ry
- * @create 2024-12-26 15:24
- */
+
 public interface IFosterService extends IService<Foster> {
 
     Page<Foster> findPage(Page<Foster> page, String phone,String fosName,String startTime,String fosOper,String fosStatus);

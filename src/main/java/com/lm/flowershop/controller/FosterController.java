@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-17 16:29
- */
+
 @RestController
 @RequestMapping("/foster")
 public class FosterController {

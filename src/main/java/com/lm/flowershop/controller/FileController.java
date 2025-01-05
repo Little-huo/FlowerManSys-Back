@@ -1,9 +1,6 @@
 package com.lm.flowershop.controller;
 
-/**
- * @author ry
- * @create 2024-12-23 17:17
- */
+
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.IdUtil;
@@ -30,9 +27,7 @@ import java.io.IOException;
 import java.net.URLEncoder;
 import java.util.List;
 
-/**
- * 文件上传相关接口
- */
+
 @RestController
 @RequestMapping("/file")
 public class FileController {
@@ -83,12 +78,7 @@ public class FileController {
         return url;
     }
 
-    /**
-     * 文件下载接口  http://localhost:9090/file/{fileUUID};
-     * @param fileUUID
-     * @param response
-     * @throws IOException
-     */
+    
     @GetMapping("/{fileUUID}")
     public void download(@PathVariable String fileUUID, HttpServletResponse response) throws IOException {
         //根据文件的唯一标识码获取文件
@@ -118,11 +108,7 @@ public class FileController {
         }
     }
 
-    /**
-     * 通过文件的md5查询文件
-     * @param md5
-     * @return
-     */
+    
     private Files getFileByMd5(String md5){
         //查询文件的md5是否存在
         QueryWrapper<Files> queryWrapper= new QueryWrapper<>();

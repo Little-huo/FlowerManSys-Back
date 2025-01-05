@@ -24,10 +24,7 @@ import java.io.InputStream;
 import java.net.URLEncoder;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 15:29
- */
+
 @RestController
 @RequestMapping("/product")
 public class ProductController {
@@ -113,9 +110,7 @@ public class ProductController {
         return Result.success(productService.page(page,queryWrapper));
     }
 
-    /**
-     * 导出接口
-     */
+    
     @GetMapping("/export")
     public void export(HttpServletResponse response)throws Exception{
         List<Product> list = productService.list();
@@ -140,11 +135,7 @@ public class ProductController {
         out.close();
         writer.close();
     }
-    /**
-     * excel 导入
-     * @param file
-     * @throws Exception
-     */
+    
     @PostMapping("/import")
     public Result imp(MultipartFile file) throws Exception{
         InputStream inputStream = file.getInputStream();

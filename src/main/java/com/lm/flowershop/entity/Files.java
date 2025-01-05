@@ -5,10 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
-/**
- * @author ry
- * @create 2024-12-24 9:30
- */
+
 @Data
 @TableName("sys_file")
 public class Files {

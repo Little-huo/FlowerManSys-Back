@@ -24,10 +24,7 @@ import java.io.InputStream;
 import java.net.URLEncoder;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-17 16:29
- */
+
 @RestController
 @RequestMapping("/buy")
 public class BuyController {
@@ -94,9 +91,7 @@ public class BuyController {
 
         return Result.success(page);
     }
-    /**
-     * 导出接口
-     */
+    
     @GetMapping("/export")
     public void export(HttpServletResponse response)throws Exception{
         //从数据库查询出所有的数据

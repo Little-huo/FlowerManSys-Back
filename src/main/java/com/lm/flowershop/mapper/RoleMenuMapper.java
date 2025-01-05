@@ -9,10 +9,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 15:27
- */
+
 public interface RoleMenuMapper extends BaseMapper<RoleMenu> {
 
     @Delete("delete from sys_role_menu where role_id = #{roleId}")

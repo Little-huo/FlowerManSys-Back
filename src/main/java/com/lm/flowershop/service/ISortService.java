@@ -6,10 +6,7 @@ import com.lm.flowershop.entity.*;
 
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 15:24
- */
+
 public interface ISortService extends IService<Sort> {
 
     Page<Sort> findPage(Page<Sort> objectPage, String sortname);

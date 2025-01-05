@@ -10,10 +10,7 @@ import lombok.Setter;
 
 import java.io.Serializable;
 
-/**
- * @author ry
- * @create 2024-12-26 15:17
- */
+
 @Getter
 @Setter
 @TableName("sys_role")

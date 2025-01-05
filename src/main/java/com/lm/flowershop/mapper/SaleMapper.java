@@ -9,10 +9,7 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
 
-/**
- * @author ry
- * @create 2024-12-26 15:27
- */
+
 public interface SaleMapper extends BaseMapper<Sale> {
      Page<Sale> findPage(Page<Sale> page, String saleId);
 

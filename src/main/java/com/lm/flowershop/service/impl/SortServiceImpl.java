@@ -13,10 +13,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
-/**
- * @author ry
- * @create 2024-12-26 15:23
- */
+
 @Service
 public class SortServiceImpl extends ServiceImpl<SortMapper, Sort> implements ISortService {
 

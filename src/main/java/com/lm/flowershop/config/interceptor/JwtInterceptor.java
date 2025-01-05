@@ -18,10 +18,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * @author ry
- * @create 2024-12-23 15:17
- */
+
 public class JwtInterceptor implements HandlerInterceptor {
     @Autowired
     private IManagerService managerService;

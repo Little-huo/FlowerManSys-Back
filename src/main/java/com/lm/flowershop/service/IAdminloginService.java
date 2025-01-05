@@ -7,10 +7,7 @@ import com.lm.flowershop.controller.dto.UserPasswordDTO;
 import com.lm.flowershop.entity.Adminlogin;
 import com.lm.flowershop.entity.Manager;
 
-/**
- * @author ry
- * @create 2024-12-21 18:24
- */
+
 public interface IAdminloginService extends IService<Adminlogin> {
 
 }

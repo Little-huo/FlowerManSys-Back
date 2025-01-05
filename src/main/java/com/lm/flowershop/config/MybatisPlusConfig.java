@@ -7,10 +7,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author ry
- * @create 2024-12-19 9:43
- */
+
 @Configuration
 @MapperScan("com.lm.flowershop.mapper")
 public class MybatisPlusConfig {

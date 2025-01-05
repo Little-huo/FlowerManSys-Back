@@ -7,10 +7,7 @@ import com.lm.flowershop.entity.Product;
 import com.lm.flowershop.entity.Supplier;
 import org.apache.ibatis.annotations.Param;
 
-/**
- * @author ry
- * @create 2024-12-26 15:27
- */
+
 public interface CustomerMapper extends BaseMapper<Customer> {
     Page<Customer> findPage(Page<Customer> page, @Param("cusName") String cusName);
 

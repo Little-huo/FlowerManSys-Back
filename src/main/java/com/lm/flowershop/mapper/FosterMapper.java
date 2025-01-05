@@ -4,10 +4,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lm.flowershop.entity.Foster;
 
-/**
- * @author ry
- * @create 2024-12-26 15:27
- */
+
 public interface FosterMapper extends BaseMapper<Foster> {
 
 

@@ -17,10 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.time.Period;
 import java.util.Date;
 
-/**
- * @author ry
- * @create 2024-12-23 11:01
- */
+
 @Component
 public class TokenUtils {
     private static IManagerService staticManagerService;
@@ -37,10 +34,7 @@ public class TokenUtils {
                 .withExpiresAt(DateUtil.offsetHour(new Date(),2)) //两小时后token过期
                 .sign(Algorithm.HMAC256(sign)); // 以 adpwd 作为 token 的密钥
     }
-    /**
-     * 获取当前登录的用户信息
-     * 静态方法不能调用非静态成员变量
-     */
+    
     public static Manager getCurrentManager() {
         try {
             HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();

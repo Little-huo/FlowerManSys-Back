@@ -16,10 +16,7 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author ry
- * @create 2024-12-26 15:29
- */
+
 @RestController
 @RequestMapping("/menu")
 public class MenuController {

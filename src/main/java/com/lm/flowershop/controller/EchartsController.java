@@ -19,10 +19,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author ry
- * @create 2024-12-25 16:57
- */
+
 @RestController
 @RequestMapping("/echarts")
 public class EchartsController {

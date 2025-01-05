@@ -5,10 +5,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.lm.flowershop.entity.Outstorage;
 import com.lm.flowershop.entity.Putstorage;
 
-/**
- * @author ry
- * @create 2024-12-26 15:24
- */
+
 public interface IOutService extends IService<Outstorage> {
 
     Page<Outstorage> findPage(Page<Outstorage> page, String outId, String outOper, String outCustomer,String startTime, String endTime);

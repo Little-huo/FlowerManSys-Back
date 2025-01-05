@@ -12,10 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-26 15:29
- */
+
 @RestController
 @RequestMapping("/role")
 public class RoleController {
@@ -61,12 +58,7 @@ public class RoleController {
         return Result.success(roleService.page(new Page<>(pageNum, pageSize), queryWrapper));
     }
 
-    /**
-     * 绑定角色和菜单的关系
-     * @param roleId 角色id
-     * @param menuIds 菜单id
-     * @return
-     */
+    
     @PostMapping("/roleMenu/{roleId}")
     public Result roleMenu(@PathVariable Integer roleId, @RequestBody List<Integer> menuIds) {
         roleService.setRoleMenu(roleId,menuIds);

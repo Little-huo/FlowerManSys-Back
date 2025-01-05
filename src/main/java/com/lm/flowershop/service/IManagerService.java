@@ -10,10 +10,7 @@ import com.lm.flowershop.entity.Sort;
 
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-21 18:24
- */
+
 public interface IManagerService extends IService<Manager> {
     ManagerDTO login(ManagerDTO managerDTO);
     void updatePassword(UserPasswordDTO userPasswordDTO);

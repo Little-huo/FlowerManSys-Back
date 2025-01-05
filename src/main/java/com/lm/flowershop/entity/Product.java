@@ -7,10 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-/**
- * @author ry
- * @create 2024-12-28 10:36
- */
+
 @TableName("fl_product")
 @Data
 public class Product {

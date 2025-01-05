@@ -9,10 +9,7 @@ import lombok.Data;
 
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-28 17:42
- */
+
 @TableName("fl_sort")
 @Data
 public class Sort {

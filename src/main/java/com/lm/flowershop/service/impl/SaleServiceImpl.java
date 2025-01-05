@@ -14,10 +14,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.Date;
 
-/**
- * @author ry
- * @create 2024-12-26 15:23
- */
+
 @Service
 public class SaleServiceImpl extends ServiceImpl<SaleMapper, Sale> implements ISaleService {
 

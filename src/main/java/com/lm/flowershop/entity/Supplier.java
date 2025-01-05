@@ -12,10 +12,7 @@ import lombok.ToString;
 
 import java.util.Date;
 
-/**
- * @author ry
- * @create 2024-12-17 16:05
- */
+
 @Data
 @Getter
 @Setter

@@ -9,10 +9,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * @author ry
- * @create 2024-12-21 15:38
- */
+
 @Data
 @TableName(value = "fl_login")
 @ApiModel(value = "登录日志",description = "")

@@ -6,11 +6,8 @@ import lombok.Data;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author ry
- * @create 2024-12-21 18:01
- */
-/*接收前端登录请求的参数*/
+
+
 @Data
 public class ManagerDTO {
     private String adname;

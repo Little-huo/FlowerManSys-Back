@@ -1,9 +1,6 @@
 package com.lm.flowershop.common;
 
-/**
- * @author ry
- * @create 2024-12-22 10:43
- */
+
 public interface Constants {
     String CODE_200 ="200";//成功
     String CODE_401="401";//权限不足
